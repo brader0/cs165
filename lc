@@ -1,0 +1,11 @@
+#!/bin/bash
+
+main < $1 > $2
+
+if [ "$#" -gt 2 ]; then
+  echo "Too many arguements. Type lc file1 file2 to run lowercase program."
+fi
+
+if if [ "$#" -lt 2 ]; then
+  echo "Too few arguements. Type lc file1 file2 to run lowercase program."
+fi
